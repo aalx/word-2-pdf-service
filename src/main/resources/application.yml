@@ -1,0 +1,20 @@
+# Make the application available at http://localhost:9000
+server:
+  port: ${SERVER_PORT:8080}
+  servlet:
+     context-path: /convert-issuer
+security:
+  basic:
+    enabled: false
+file:
+  convert:
+    openoffice:
+      programPath: ${OPEN_OFFICE_PATH:}
+      serverUrl: ${OPEN_OFFICE_URL:127.0.0.1}
+      port: ${OPEN_OFFICE_PORT:8100}
+logging:
+  level:
+    com.cssca: DEBUG
+
+
+
