@@ -5,6 +5,7 @@ https://udomain.dl.sourceforge.net/project/openofficeorg.mirror/4.1.10/binaries/
 
 # word2Pdf_documents4j
 依赖MS Office,只支持Windows，请安装MS Office Word 2010+版本，效果最佳，格式无损。
+Office需要设置宏的信任安全策略，否则会弹出提示框，阻塞转换，造成超时。
 ### 下载地址
 自行搜索引擎下载
 
